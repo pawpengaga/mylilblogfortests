@@ -1,0 +1,8 @@
+Se ha creado una base de datos para development y una para test
+
+./tests/ tiene todo lo que necesitamos
+
+1. rails g model post title description
+
+#Scaffold manual vamos chimpances!!!
+2. rails g controller posts index show new edit 
