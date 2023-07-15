@@ -6,3 +6,15 @@ Se ha creado una base de datos para development y una para test
 
 #Scaffold manual vamos chimpances!!!
 2. rails g controller posts index show new edit 
+
+3. Agregar resources en las rutas
+
+4. Editar el controlador de posts
+
+------------
+
+TEST FASES
+
+editar los posts.yml
+
+CREAR LOS TESTS EN CONTROLLERS TEST SIGUIENDO LOS METODOS DEL CONTROLADOR PRINCIPAL

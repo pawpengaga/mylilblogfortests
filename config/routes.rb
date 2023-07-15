@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'posts/new'
   get 'posts/edit'
 
-  resources :posts
+  resources :posts #0. Llama a todas las rutas de posts
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")

@@ -1,9 +1,18 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyString
 
-two:
-  title: MyString
-  description: MyString
+first_post: #Son nombres de variables se pueden llamar como queremos
+  title: El primer post #Esto debe respetar los tipos de datos de nuestro modelo
+  description: Descripcion para el primer post
+
+
+second_post:
+  title: El segundo post
+  description: Descripcion para el segundo post
+
+
+third_post:
+  title: El tercer post
+  description: Descripcion para el tercer post
+
+
