@@ -1,2 +1,14 @@
-<h1>Posts#index</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+require 'test_helper'
+<!-- noticia que los controladores nos devuelven siempre -->
+<p style="color:green"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<div id="posts">
+    <% @posts.each do |post|%> <!--Trae todos los posts de la vista index del controlador de posts-->
+        <%= render post %>
+        <p><%= link_to "Mostrar #{post.title}", post %></p>
+    <%end%>
+</div>
+
+<%= link_to "Nuevo post", new_post_path %>
