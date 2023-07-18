@@ -1,2 +1,9 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<p style="color: green"><%= notice %></p>
+
+<%= render @post %>
+
+<div>
+    <%= link_to "Back to posts", posts_path %>
+    <%= link_to "Edit this post", edit_post_path(@post) %> |
+    <%= button_to "Destroy this post", @post, method: :delete %>
+</div>

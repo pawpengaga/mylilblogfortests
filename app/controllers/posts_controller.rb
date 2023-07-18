@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy] #5. De esta forma el show y el edit saben que post están editando y usando !!! #x. Añadido update y destroy en la fase de tests
 
   def index
-    @post = Post.all #3.Quiero que consultes todos los posts y los guardes aqui
+    @posts = Post.all #3.Quiero que consultes todos los posts y los guardes aqui
   end
 
   def show
